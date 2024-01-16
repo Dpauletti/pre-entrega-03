@@ -33,7 +33,7 @@
             totalCarrito.textContent = `$${total.toFixed(2)}`;
         }
 
-        // Agrega eventos de clic para los botones "Agregar al Carrito"
+        //Eventos para los botones agregar al carrito
         const botonesAgregar = document.querySelectorAll('.colorBtn');
         botonesAgregar.forEach((boton, index) => {
             boton.addEventListener('click', () => {
